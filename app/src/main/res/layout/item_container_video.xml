@@ -43,6 +43,17 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textVideoID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/textVideoDescription"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

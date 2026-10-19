@@ -43,24 +43,28 @@ public class MainActivity extends AppCompatActivity {
         videoNot.videoURL = "https://raw.githubusercontent.com/HendricksoS/CS460_Lab2_Videos/main/noVideo.mp4";
         videoNot.videoTitle = "This is Not a Video";
         videoNot.videoDescription = "Why would it have a description if it isn't a video?";
+        videoNot.videoID = "ID:00000";
         videoItemsList.add(videoNot);
 
         VideoItem videoDilly = new VideoItem();
         videoDilly.videoURL = "https://raw.githubusercontent.com/HendricksoS/CS460_Lab2_Videos/main/Dilly.mp4";
         videoDilly.videoTitle = "Kick it Dilly!";
         videoDilly.videoDescription = "He's really busting it down.";
+        videoDilly.videoID = "ID:1337";
         videoItemsList.add(videoDilly);
 
         VideoItem videoColumbo = new VideoItem();
         videoColumbo.videoURL = "https://raw.githubusercontent.com/HendricksoS/CS460_Lab2_Videos/main/Im_Snoopy.mp4";
         videoColumbo.videoTitle = "He's What Now???";
         videoColumbo.videoDescription = "We're all very proud of Columbo for sharing himself with us.";
+        videoColumbo.videoID = "ID:1968";
         videoItemsList.add(videoColumbo);
 
         VideoItem videoDuc = new VideoItem();
         videoDuc.videoURL = "https://raw.githubusercontent.com/HendricksoS/CS460_Lab2_Videos/main/duc.webm";
         videoDuc.videoTitle = "Duc";
         videoDuc.videoDescription = "What is he doing in there? What is he plotting?";
+        videoDuc.videoID = "ID:12345";
         videoItemsList.add(videoDuc);
 
         videoViewPager.setAdapter(new VideoAdapter(videoItemsList));
