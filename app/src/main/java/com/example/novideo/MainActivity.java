@@ -30,11 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
         List<VideoItem> videoItemsList = new ArrayList<>();
 
-        /* example code for adding a new video. Could be automated by checking the contents of the github.
+        /* example code for adding a new video. This should be automated eventually.
         VideoItem videoNew = new VideoItem();
         videoNew.videoURL = "https://raw.githubusercontent.com/HendricksoS/CS460_Lab2_Videos/main/.mp4webm";
         videoNew.videoTitle = "Title";
         videoNew.videoDescription = "Description";
+        videoNew.videoID = "00000";
         videoItemsList.add(videoNew);
          */
 
